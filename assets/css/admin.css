@@ -1,0 +1,41 @@
+/**
+ * TRANSACTION COLORS
+ **/
+.wpec-quickpay-capture {
+	color:#85ad74 !important;
+}
+.wpec-quickpay-subscribe {
+	color:#85ad74 !important;
+}
+.wpec-quickpay-cancel {
+	color:#ad74a2 !important;
+}
+.wpec-quickpay-authorize,
+.wpec-quickpay-refund {
+	color:#7499ad !important;
+}
+
+/**
+ * TRANSACTION ACTIONS META BOX
+ **/
+#quickpay-payment-actions {
+	position:relative;
+    max-width:400px;
+}
+
+#quickpay-payment-actions .left {
+	float:left;
+}
+#quickpay-payment-actions .right {
+	float:right;
+}
+
+#quickpay-payment-actions .loader {
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background: rgba( 255, 255, 255, 0.7 ) url('../img/loader.gif') no-repeat center center;
+    background-size:50%;
+}
